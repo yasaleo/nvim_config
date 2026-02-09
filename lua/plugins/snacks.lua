@@ -6,6 +6,7 @@ return {
         explorer = {
           hidden = true,
           ignored = true,
+          exclude = { "**/dist/**", "**/node_modules/**" },
           layout = {
             layout = {
               position = "right",
@@ -16,6 +17,7 @@ return {
         files = {
           hidden = true,
           ignored = true,
+          exclude = { "**/dist/**", "**/node_modules/**" },
         },
       },
     },

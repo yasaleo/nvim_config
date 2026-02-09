@@ -4,14 +4,18 @@ return {
     picker = {
       sources = {
         explorer = {
+          hidden = true,
+          ignored = true,
           layout = {
-            -- Notice 'layout' appears twice
             layout = {
               position = "right",
-              -- Optional: adjust width as needed
               -- width = 0.3,
             },
           },
+        },
+        files = {
+          hidden = true,
+          ignored = true,
         },
       },
     },

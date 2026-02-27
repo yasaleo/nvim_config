@@ -1,4 +1,4 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
+-- init.lua
 require("config.lazy")
 
 vim.api.nvim_create_autocmd({ "InsertLeave", "TextChanged", "BufLeave", "FocusLost" }, {
